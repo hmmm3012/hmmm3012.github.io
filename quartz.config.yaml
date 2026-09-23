@@ -117,7 +117,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: default
+      theme: zen-forest
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
