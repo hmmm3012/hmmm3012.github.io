@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Hmmm3012
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Be Vietnam Pro
+      body: IBM Plex Sans
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -110,6 +110,10 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      header: Be Vietnam Pro
+      body: IBM Plex Sans
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
     options:

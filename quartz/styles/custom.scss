@@ -1,3 +1,30 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+.note-properties.metadata-container {
+  display: none;
+}
+.callout {
+  margin: 1.5rem 0;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--gray);
+  border-radius: 4px;
+  background: var(--light);
+  color: var(--dark);
+  box-shadow: none;
+}
+
+.callout-title {
+  padding: 0.65rem 1rem;
+  color: var(--dark);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.callout-content {
+  padding: 0 1rem 0.8rem;
+  color: var(--darkgray);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}

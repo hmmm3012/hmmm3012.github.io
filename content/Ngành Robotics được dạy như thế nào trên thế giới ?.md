@@ -1,26 +1,30 @@
-> Trong quá trình tìm hiểu và tự học robotics, mình tham khảo khá nhiều các khoá học và chương trình giảng dạy khác nhau từ những trường đại học top đầu về Robotics. Bài này chia sẽ 1 vài đúc kết của cá nhân mình, sẽ có ích cho những ai đang muốn xây roadmap tự học robotics.
+---
+title: Ngành Robotics được dạy như thế nào trên thế giới ?
+tags:
+  - blogs
+---
+> [!info] Trong quá trình tìm hiểu và tự học robotics, mình tham khảo khá nhiều các khoá học và chương trình giảng dạy khác nhau từ những trường đại học top đầu về Robotics. Bài này chia sẽ 1 vài đúc kết của cá nhân mình, sẽ có ích cho những ai đang muốn xây roadmap tự học robotics.
 
-Mình tham khảo rất nhiều về chương trình dạy của đại học Michigan vì họ công khai danh sách môn và thậm chí là tài liệu, clip giảng dạy của 1 vài môn. Ngoài ra, Michigan cũng có 1 khoa riêng cho Robotics, nên nội dung đào tạo và yêu cầu đầu ra rất sát với ngành.
-Các lập luận dưới đây hoàn toàn dựa trên sự tìm hiểu và ý kiến cá nhân. Sẽ cập nhật liên tục nếu có thay đổi sau này.
+>[!note] Mình tham khảo rất nhiều về chương trình dạy của đại học Michigan vì họ công khai danh sách môn và thậm chí là tài liệu, clip giảng dạy của 1 vài môn. Ngoài ra, Michigan cũng có 1 khoa riêng cho Robotics, nên nội dung đào tạo và yêu cầu đầu ra rất sát với ngành. Các lập luận dưới đây hoàn toàn dựa trên sự tìm hiểu và ý kiến cá nhân. Sẽ cập nhật liên tục nếu có thay đổi sau này.
 # Điểm chung
 Đa số các trường hiện tại vẫn xem Robotics là 1 ngách từ các ngành máy tính khác như Computer Science, Computer Engineering, Mechanical Engineering, Electrical Engineering. Riêng một số trường như CMU, U-M, có khoa riêng (department) cho ngành robotics. Nhìn chung, họ xem robotics là tổ hợp của nhiều ngành riêng lẻ và sẽ trang bị cho sinh viên các nhóm kiến thức sau:
-1. Toán học
-2. Vật lý
-3. Khoa học/kỹ thuật máy tính
-4. Robotics 
+1. **Toán học**
+2. **Vật lý**
+3. **Khoa học/kỹ thuật máy tính**
+4. **Robotics** 
 # Các trường kỳ vọng sinh viên phải có nền tảng gì ?
-1. Phải có nền toán khá rộng
-Mức độ sâu rộng mỗi trường mỗi khác, nhưng tất cả đều dạy 3 phần sau: Đại số tuyến tính, Giải tích, Xác suất thống kê. Bài toán robot cần phải giải quyết thường hoạt động trong môi trường thực tế, kết hợp nhiều sensor và actuator. Đó là lúc các khái niệm toán học xuất hiện :
-- Đại số tuyến tính: đại diện trạng thái, phép biến đổi, hệ toạ độ, ...
-- Giải tích: biểu diễn các phương trình chuyển động
-- Xác suất: ước lượng độ chính xác trạng thái của robot, dự đoán, ...
-Ngoài ra, để nghiên cứu sâu hơn về điều khiển hoặc mô hình động học. Sinh viên phải học thêm toán nâng cao hơn như toán tối ưu và phương trình vi phân.
-2. Phải có kiến thức về khoa học máy tính
-Việc biết lập trình C/C++ hoặc Python gần như là bắt buộc với sinh viên ngành này. Ngoài ra, các khái niệm về hệ điều hành, kiến trúc máy tính và thiết kế thuật toán cũng nằm trong yêu cầu đầu ra của các trường. Hiện tại, sinh viên có thể dùng AI agent để hỗ trợ coding khá nhiều. Nhưng trong quá trình học tập, việc code "chay" sẽ giúp mình chủ động gợi nhớ và có phản xạ tư duy tốt hơn trong lập trình. 
-3. Phải có kiến thức vật lý
-Sinh viên không cần phải học sâu quá nhiều về lý thuyết vật lý như chuyên ngành chính. Nhưng phải nắm được các kiến thức cơ bản liên quan đến cơ học, cụ thể là động lực học. Ngoài ra, một số hiểu biết nhất định về lý thuyết điện tử cũng rất có ích để làm việc với cảm biến, mạch điện, ...
-4. Phải nắm được các kiến thức trọng tâm của robot
-Phần này sẽ kết hợp các kiến thức lõi của 3 lĩnh vực trên và áp dụng vào hệ thống robot. Sinh viên phải biết cách mô hình hoá động lực học của robot và dựa vào đó để thiết kế bộ điều khiển.
+1. **Phải có nền toán khá rộng**
+- Mức độ sâu rộng mỗi trường mỗi khác, nhưng tất cả đều dạy 3 phần sau: Đại số tuyến tính, Giải tích, Xác suất thống kê. Bài toán robot cần phải giải quyết thường hoạt động trong môi trường thực tế, kết hợp nhiều sensor và actuator. Đó là lúc các khái niệm toán học xuất hiện
+	- Đại số tuyến tính: đại diện trạng thái, phép biến đổi, hệ toạ độ, ...
+	- Giải tích: biểu diễn các phương trình chuyển động
+	- Xác suất: ước lượng độ chính xác trạng thái của robot, dự đoán, ...
+- Ngoài ra, để nghiên cứu sâu hơn về điều khiển hoặc mô hình động học. Sinh viên phải học thêm toán nâng cao hơn như toán tối ưu và phương trình vi phân.
+2. **Phải có kiến thức về khoa học máy tính**
+- Việc biết lập trình C/C++ hoặc Python gần như là bắt buộc với sinh viên ngành này. Ngoài ra, các khái niệm về hệ điều hành, kiến trúc máy tính và thiết kế thuật toán cũng nằm trong yêu cầu đầu ra của các trường. Hiện tại, sinh viên có thể dùng AI agent để hỗ trợ coding khá nhiều. Nhưng trong quá trình học tập, việc code "chay" sẽ giúp mình chủ động gợi nhớ và có phản xạ tư duy tốt hơn trong lập trình. 
+3. **Phải có kiến thức vật lý**
+- Sinh viên không cần phải học sâu quá nhiều về lý thuyết vật lý như chuyên ngành chính. Nhưng phải nắm được các kiến thức cơ bản liên quan đến cơ học, cụ thể là động lực học. Ngoài ra, một số hiểu biết nhất định về lý thuyết điện tử cũng rất có ích để làm việc với cảm biến, mạch điện, ...
+4. **Phải nắm được các kiến thức trọng tâm của robot**
+- Phần này sẽ kết hợp các kiến thức lõi của 3 lĩnh vực trên và áp dụng vào hệ thống robot. Sinh viên phải biết cách mô hình hoá động lực học của robot và dựa vào đó để thiết kế bộ điều khiển.
 Ngoài ra, sinh viên cũng cần biết thêm cách ước lượng trạng thái hiện tại của robot và cách robot "hiểu" về môi trường xung quanh của mình. Hiện tại có rất nhiều hướng nghiên cứu khác nhau khi đi sâu vào từng kiến thức cốt lõi này.
 # Các ngách nghiên cứu
 Đây là phần mà mỗi trường sẽ đánh theo điểm mạnh của mình, phần lớn phụ thuộc vào năng lực các giáo sư và phòng lab. Mình tham khảo các hướng tập trung được trường U-M công khai như sau:

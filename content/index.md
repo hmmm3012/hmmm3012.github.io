@@ -1,8 +1,9 @@
 ---
-title: Minh Trinh
+title: Hi there !
 ---
 **Computer Engineer → Robotics Engineer**
-I am currently studying robotics from the ground up, with a focus on mathematics.
+I'm Minh, currently studying robotics from the ground up, with a focus on mathematics.
+Most of stuff on this site will be my unfinished notes and blogs about robotics and software.
 ## Links
 - [Github](https://github.com/hmmm3012)
 - [Facebook](https://www.facebook.com/hoang.minh.60932/)
