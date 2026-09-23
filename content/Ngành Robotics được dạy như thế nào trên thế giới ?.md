@@ -3,9 +3,11 @@ title: Ngành Robotics được dạy như thế nào trên thế giới ?
 tags:
   - blogs
 ---
-> [!info] Trong quá trình tìm hiểu và tự học robotics, mình tham khảo khá nhiều các khoá học và chương trình giảng dạy khác nhau từ những trường đại học top đầu về Robotics. Bài này chia sẽ 1 vài đúc kết của cá nhân mình, sẽ có ích cho những ai đang muốn xây roadmap tự học robotics.
+>[!info] Intro
+>Trong quá trình tìm hiểu và tự học robotics, mình tham khảo khá nhiều các khoá học và chương trình giảng dạy khác nhau từ những trường đại học top đầu về Robotics. Bài này chia sẽ 1 vài đúc kết của cá nhân mình, sẽ có ích cho những ai đang muốn xây roadmap tự học robotics.
 
->[!note] Mình tham khảo rất nhiều về chương trình dạy của đại học Michigan vì họ công khai danh sách môn và thậm chí là tài liệu, clip giảng dạy của 1 vài môn. Ngoài ra, Michigan cũng có 1 khoa riêng cho Robotics, nên nội dung đào tạo và yêu cầu đầu ra rất sát với ngành. Các lập luận dưới đây hoàn toàn dựa trên sự tìm hiểu và ý kiến cá nhân. Sẽ cập nhật liên tục nếu có thay đổi sau này.
+>[!note] University of Michigan
+> Mình tham khảo rất nhiều về chương trình dạy của đại học Michigan vì họ công khai danh sách môn và thậm chí là tài liệu, clip giảng dạy của 1 vài môn. Ngoài ra, Michigan cũng có 1 khoa riêng cho Robotics, nên nội dung đào tạo và yêu cầu đầu ra rất sát với ngành. Các lập luận dưới đây hoàn toàn dựa trên sự tìm hiểu và ý kiến cá nhân. Sẽ cập nhật liên tục nếu có thay đổi sau này.
 # Điểm chung
 Đa số các trường hiện tại vẫn xem Robotics là 1 ngách từ các ngành máy tính khác như Computer Science, Computer Engineering, Mechanical Engineering, Electrical Engineering. Riêng một số trường như CMU, U-M, có khoa riêng (department) cho ngành robotics. Nhìn chung, họ xem robotics là tổ hợp của nhiều ngành riêng lẻ và sẽ trang bị cho sinh viên các nhóm kiến thức sau:
 1. **Toán học**
