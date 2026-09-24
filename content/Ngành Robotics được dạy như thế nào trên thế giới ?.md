@@ -40,7 +40,7 @@ Hoạt động của các lab ở những trường top cũng rất đa dạng, 
 # Tự xây roadmap cho bản thân
 Sau khi tìm hiểu curriculum của nhiều trường đại học, mình sẽ hình dung được bức tranh tổng thể và tự build lộ trình học cho chính bản thân.
 1. Nền tảng
-- Như đã đề cập ở phần trước, để đi xa trong lĩnh vực này, không thể nào phớt lờ toán học được. Vì vậy, ít nhất mình phải học và hiểu được các concept trong 3 môn: giải tích, đại số tuyến tính và xác suất. Về khoá học thì có thể tham khảo series 18.0* của MIT được public trên OCW.
+- Như đã đề cập ở phần trước, để đi xa trong lĩnh vực này, không thể nào phớt lờ toán học được. Vì vậy, ít nhất mình phải học và hiểu được các concept trong 3 môn: giải tích, đại số tuyến tính và xác suất. Về khoá học thì có thể tham khảo series 18.0* của MIT được public trên OCW. U-M cũng public 1 vài môn toán được căn chỉnh riêng cho robotics, ví dụ như [[ROB101 - Computational Linear Algebra|ROB101]] 
 - Vì bản thân là sinh viên ngành kỹ thuật máy tính, nên mình được trang bị sẵn các kiến thức về lập trình, kiến trúc máy tính, giải thuật và hệ thống nhúng. Nhưng nếu phải tự học, mình sẽ chọn học Python thay vì C/C++. Python sẽ dễ học hơn cho người mới và dễ ứng dụng vào các môn học sau này của Robotics.
 - Sau khi có nền toán và biết lập trình, việc bắt đầu học các kiến thức core trong robotics sẽ dễ dàng hơn. Mình sẽ học các phương pháp ước lượng trạng thái (vd: Kalman filter), lý thuyết điều khiển (PID, MCP), SLAM và trajectory planning. 
 2. Chuyên sâu
@@ -48,9 +48,6 @@ Sau khi tìm hiểu curriculum của nhiều trường đại học, mình sẽ 
 ## Vấn đề về phần cứng ?
 Một trong những khó khăn trong lúc tự học robotics là tài nguyên phần cứng. Sẽ rất khó để làm labs yêu cầu phần cứng của các khoá online. Để tự xây dựng lại mô hình phần cứng y hệt sẽ rất tốn kém và mất thời gian. Giải pháp tạm thời là chỉ đọc yêu cầu của labs để hiểu vấn đề cần giải quyết và lý thuyết cần áp dụng. Sau đó tìm bài toán tương tự có thể mô phỏng dùng Gazebo hoặc Mujoco và giải quyết. 
 Tất nhiên, việc chỉ phụ thuộc vào simulation sẽ không giúp mình học được quá trình gỡ lỗi trên phần cứng. Đặc biệt là các vấn đề liên quan đến sensor và actuator.
-# Việt Nam hiện tại dạy gì ?
-
-???
 
 Sẽ cập nhật tiếp
 
