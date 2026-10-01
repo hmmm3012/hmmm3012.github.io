@@ -2,6 +2,7 @@
 title: Ngành Robotics được dạy như thế nào trên thế giới ?
 tags:
   - blogs
+  - robotics
 ---
 >[!info] Intro
 >Trong quá trình tìm hiểu và tự học robotics, mình tham khảo khá nhiều các khoá học và chương trình giảng dạy khác nhau từ những trường đại học top đầu về Robotics. Bài này chia sẽ 1 vài đúc kết của cá nhân mình, sẽ có ích cho những ai đang muốn xây roadmap tự học robotics.

@@ -11,11 +11,16 @@ title: ROB101 - Computational Linear Algebra
 - Toàn bộ labs, lecture notes và videos giảng dạy nằm trong [này](https://github.com/michiganrobotics/rob101/).
 - Ngoài ra, có thể tham khảo thêm các khoá về đại số tuyến tính rất nổi tiếng như [18.06](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011) của thầy Gilbert Strang.
 - Coi thêm series đại số tuyến tính của [3blue1brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) để có cái nhìn trực quan hơn.
+# Projects
+- Sẽ có 3 project trong môn này:
+	1. [[ROB101 - Map Building from LiDAR Data|Map Building from LiDAR Data]]
+	2. [[ROB101 - Regression. Precipitation in Alaska|Regression: Precipitation in Alaska]]
+	3. Segway
 ## Labs
 - Mặc dù là môn toán nhưng có kèm theo các bài labs sử dụng Julia + Jupyter: [Lab Manual](https://grizzle.robotics.umich.edu/files/ROB_101_Julia_Programming_Guide_07August2025.pdf)
 
 > [!warning] Note
-> Bài này dùng để lưu các ghi chú của mình trong quá trình tự học, không phải tài liệu tin cậy để tham khảo. Mình sẽ chia các mục theo từng chương trong notebook của môn.
+> Bài này dùng để lưu các ghi chú của mình trong quá trình tự học, không phải tài liệu tin cậy để tham khảo. Mình sẽ chia các mục theo từng chương trong notebook.
 
 # 1- Introduction to system of linear equations 
 - Phương trình tuyến tính là phương trình bật 1 có dạng : $$ y = ax + b $$
@@ -46,3 +51,15 @@ $$
 </div>
 - Phương pháp để tìm ra nghiệm của hệ phương trình là đưa ma trận hệ số về dạng **tam giác trên** hoặc **tam giác dưới**. Sau đó dùng phương pháp thế để tìm ra các nghiệm lần lượt. 
 # 4- Matrix Multiplication
+- Một trong những cách để hình dung phép nhân 2 ma trận **A x B** là xem nó như **phép biển đổi của ma trận B theo ma trận A**. 
+- Xem video này của kênh [3b1b](http://youtube.com/watch?v=XkY2DOUCWMU&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4) để dễ hiểu hơn.
+- Một vài đặc trưng của phép nhân cần lưu ý:
+	1. A.B != B.A (không có tính giao hoán)
+	2. Kích thước của 2 ma trận phải có dạng $A_{nm} \cdot B_{mk}$
+# 5- LU factorization
+- Question: Cho ma trận vuông M, có cách nào tìm ra 2 ma trận sao cho $M=L \cdot U$. Trong đó, L và U lần lượt là 2 ma trận tam dưới trên và trên.
+- Answer: Có cách tìm ra 2 ma trận L và U. Và việc phân tách này còn giúp mình tìm nghiệm của phương trình $A \cdot x = b$ một cách tổng quát hơn. 
+- Cách giải phương trình sử dụng 2 ma trận LU:
+![[Screenshot 2026-09-28 at 14.45.46.png|center]]
+- Ở phần này, mình không đi chi tiết vào cách tìm 2 ma trận L và U.
+# 6- Determinant of a Matrix Product, Matrix Inverses, Matrix Transposes, and Permutation Matrices
