@@ -95,4 +95,26 @@ $$
   <img src="imgs/Screenshot 2026-10-05 at 09.46.58.png" width="350">
 </div>
 - Và các vector $\alpha \in \mathbb{R}^m$ là nghiệm của hệ phương trình.
-- Cách để check 1 vector có phải là tổ hợp tuyến tính của các vector còn lại.
+- Độc lập tuyến tính (Linear Independence) và Phụ thuộc tuyến tính (Linear dependence) được hiểu như sau:
+	- Cho 1 tổ hợp tuyến tính có tổng bằng 0 như sau ![[Screenshot 2026-10-06 at 10.08.18.png|250]].
+	- Nếu tồn tại 1 nghiệm vector $\alpha \neq 0$ , các vector v là phụ thuộc tuyến tính
+	- Nếu chỉ có duy nhất nghiệm $\alpha = 0$, các vector v gọi là độc lập tuyến tính 
+- Nếu phương trình $Ax = b$ có 1 nghiệm duy nhất, thì A độc lập tuyến tính.  
+- Ý nghĩa của độc lập tuyến tính:
+	- 
+# 8- Euclidean Norm, Least Squared Error Solutions to Linear Equations, and Linear Regression
+
+Objective: hầu hết các bài toán kỹ thuật trong thực tế sẽ không có 1 đáp án, 1 nghiệm chính xác, nhất quán. Vì thế, mình sẽ chuyển sang tìm kết quả sao cho sai số là ít nhất.
+
+- Chuẩn của một vector (Norm of vector) là hàm số dùng để đo kích thước, chiều dài của một vector, ký hiệu là $\|v\|$. Được tính là ![[Screenshot 2026-10-07 at 09.27.01.png|250]]
+- Xét hệ tuyến tính $Ax = b$ , khi đó vector $e(x) := Ax-b$ là sai số của nghiệm $x$. Chiều dài của vector e lớn hay bé sẽ phụ thuộc vào nghiệm x. Để không phải làm việc với dấu căn bậc 2, mình đơn giản là bình phương chiều dài của vector. Khi đó, vector sai số $e(x)$ sẽ được viết:
+<div align="center">
+  <img src="imgs/Screenshot 2026-10-09 at 11.23.10.png" width="500">
+</div>
+
+- Như vậy, tìm nghiệm có sai số nhỏ nhất trở thành bài toán tối ưu:
+<div align="center">
+  <img src="imgs/Screenshot 2026-10-09 at 11.25.27.png" width="300">
+</div>
+
+- 

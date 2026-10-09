@@ -1,6 +1,0 @@
----
-tags:
-  - blogs
-  - robotics
-  - projects
----
