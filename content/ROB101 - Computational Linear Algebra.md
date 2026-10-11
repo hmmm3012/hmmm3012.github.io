@@ -112,9 +112,16 @@ Objective: hầu hết các bài toán kỹ thuật trong thực tế sẽ khôn
   <img src="imgs/Screenshot 2026-10-09 at 11.23.10.png" width="500">
 </div>
 
-- Như vậy, tìm nghiệm có sai số nhỏ nhất trở thành bài toán tối ưu:
+- Như vậy, tìm nghiệm có sai số nhỏ nhất trở thành bài toán tối ưu gọi là Lease Square Error (LSE):
 <div align="center">
   <img src="imgs/Screenshot 2026-10-09 at 11.25.27.png" width="300">
 </div>
 
-- 
+- Và nghiệm $x^*$ sẽ được tính như sau:
+<div align="center">
+  <img src="imgs/Screenshot 2026-10-09 at 12.04.53.png" width="600">
+</div>
+
+- Phương pháp để tìm nghiệm trong bài toán LSE như sau:
+![[Screenshot 2026-10-11 at 20.32.47.png]]
+
