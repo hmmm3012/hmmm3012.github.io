@@ -125,3 +125,6 @@ Objective: hầu hết các bài toán kỹ thuật trong thực tế sẽ khôn
 - Phương pháp để tìm nghiệm trong bài toán LSE như sau:
 ![[Screenshot 2026-10-11 at 20.32.47.png]]
 
+
+# 9- The Vector Space Rn: Part 2
+
