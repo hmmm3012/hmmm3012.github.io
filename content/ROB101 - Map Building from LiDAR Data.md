@@ -49,9 +49,8 @@ Project chỉ tập trung vào việc biến đổi sử dụng các phép nhân
 </div>
 
 - Sau khi kết hợp với dữ liệu về rotation và translation của robot, mình biến đổi dữ liệu của Lidar về như sau: (mũi tên trắng là vị trí và hướng của robot)
-
 <div align="center">
-  <img src="imgs/Screenshot 2026-10-09 at 10.57.19.png " width="400">
+  <img src="imgs/Screenshot 2026-10-09 at 10.57.19.png" width="400">
 </div>
 
 - Kết quả cuối cùng là robot di chuyển (điểm trắng), nhưng bản đồ vẫn cố định và được update theo thời gian.
