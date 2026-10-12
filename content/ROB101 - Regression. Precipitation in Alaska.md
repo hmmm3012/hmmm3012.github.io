@@ -11,12 +11,12 @@ tags:
 # Monomials vs Radial basis functions
 - Trong bài toán hồi quy tuyến tính (linear regression), việc chọn hàm cơ bản để ước lượng trong bài toán này rất quan trọng. Sẽ có 2 hướng, đầu tiên là sử dụng các đơn thức (Monomials), ví dụ như $x^2, x^3 ,...$  
 - Nhưng khi đó model phải phụ thuộc vào hình dạng của hàm đơn thức. Ví dụ, nếu xài hàm bậc 2 có dạng $y = ax^2 + bx +c$. Khi đó, hình dáng các điểm data biết trước phải có dạng "hình cong chiếc bát" để model dự đoán tốt nhất.
-<div style="display: flex; align-items: center; justify-content: center; gap: 15px;">  
-<img src="imgs/Screenshot 2026-10-12 at 08.57.53.png " width="500">  
+<div align= "center">  
+	<img src="imgs/Screenshot 2026-10-12 at 08.57.53.png " width="500">  
 </div>
 
 - Để giải quyết vấn đề trên, mình sẽ dùng dạng hàm cơ bản số 2 : Radial basis function (RBF). Phương trình RBF như sau: $$f(x; x_c, s) = exp(\frac{-|x-x_c|^2}{2s^2})$$
-<div style="display: flex; align-items: center; justify-content: center; gap: 15px;">  
+<div align= "center">  
 <img src="imgs/Screenshot 2026-10-12 at 09.01.41.png " width="450">  
 </div>
 

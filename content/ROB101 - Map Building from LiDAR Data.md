@@ -44,7 +44,6 @@ Project chỉ tập trung vào việc biến đổi sử dụng các phép nhân
 </div>
 
 - Dữ liệu từ Lidar khi chưa được biến đổi về global frame sẽ có dạng như này: 
-
 <div align="center">
   <img src="imgs/Screenshot 2026-10-09 at 10.45.34.png" width="400">
 </div>
